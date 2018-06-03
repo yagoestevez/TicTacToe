@@ -1,0 +1,46 @@
+body {
+  height            : 100vh;
+  font-family       : Merriweather, sans-serif;
+  background        : #226293;
+  background        : -webkit-radial-gradient(center, ellipse cover, #226293 0%,#1b4f79 100%);
+  background        :    -moz-radial-gradient(center, ellipse cover, #226293 0%, #1b4f79 100%);
+  background        :         radial-gradient(ellipse at center, #226293 0%,#1b4f79 100%);
+  filter            : progid:DXImageTransform.Microsoft.gradient(
+                              startColorstr='#226293',
+                              endColorstr='#1b4f79',
+                              GradientType=1 
+                              );
+  color             : #eee;
+  display           : flex;
+  justify-content   : center;
+  align-items       : center;
+}
+
+footer {
+  position          : fixed;
+  bottom            : 0;
+  background        : #000;
+  color             : #eee;
+  height            : 1.4rem;
+  width             : 100%;
+  padding           : .2rem;
+  text-align        : center;
+  font-size         : .8rem;
+  z-index           : 999;
+}
+
+  footer a:link, footer a:visited {
+    text-decoration : none;
+    color           : #eee;
+    transition      : color 0.5s ease;
+  }
+
+  footer a:hover {
+    color           : #fc0;
+  }
+
+  footer .love {
+    color           : #b10;
+    font-size       : 1rem;
+    vertical-align  : baseline;
+  }

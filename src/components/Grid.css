@@ -1,0 +1,54 @@
+#Grid {
+  position  : absolute;
+  width     : 50vh;
+  height    : 50vh;
+  z-index   : -500;
+}
+
+  #Grid .line {
+    stroke              : #fc0;
+    stroke-width        : 3px;
+    stroke-dasharray    : 180px;
+    stroke-dashoffset   : -180px;
+    fill                : transparent;
+  }
+
+  #Grid .animate1 {
+    stroke-dashoffset   : 0px;
+    -webkit-transition  : stroke-dashoffset 200ms ease-in;
+       -moz-transition  : stroke-dashoffset 200ms ease-in;
+         -o-transition  : stroke-dashoffset 200ms ease-in;
+            transition  : stroke-dashoffset 200ms ease-in;
+  }
+  
+    #Grid .line1-shown {
+      stroke-dashoffset   : 0px;
+      -webkit-transition  : stroke-dashoffset 200ms ease-in 200ms;
+        -moz-transition   : stroke-dashoffset 200ms ease-in 200ms;
+          -o-transition   : stroke-dashoffset 200ms ease-in 200ms;
+              transition  : stroke-dashoffset 200ms ease-in 200ms;
+    }
+
+  #Grid .animate2 {
+    stroke-dashoffset   : 0px;
+    -webkit-transition  : stroke-dashoffset 200ms ease-in 200ms;
+       -moz-transition  : stroke-dashoffset 200ms ease-in 200ms;
+         -o-transition  : stroke-dashoffset 200ms ease-in 200ms;
+            transition  : stroke-dashoffset 200ms ease-in 200ms;
+  }
+
+  #Grid .animate3 {
+    stroke-dashoffset   : 0px;
+    -webkit-transition  : stroke-dashoffset 200ms ease-in 400ms;
+       -moz-transition  : stroke-dashoffset 200ms ease-in 400ms;
+         -o-transition  : stroke-dashoffset 200ms ease-in 400ms;
+            transition  : stroke-dashoffset 200ms ease-in 400ms;
+  }
+
+  #Grid .animate4 {
+    stroke-dashoffset   : 0px;
+    -webkit-transition  : stroke-dashoffset 200ms ease-in 600ms;
+       -moz-transition  : stroke-dashoffset 200ms ease-in 600ms;
+         -o-transition  : stroke-dashoffset 200ms ease-in 600ms;
+            transition  : stroke-dashoffset 200ms ease-in 600ms;
+  }

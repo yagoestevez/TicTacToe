@@ -1,0 +1,93 @@
+.cross {
+  stroke              : #fc0;
+  stroke-width        : 6px;
+  stroke-dasharray    : 226.274169921875px;
+  stroke-dashoffset   : -226.274169921875px;
+  fill                : transparent;
+  transition          : stroke-dashoffset 0.3 linear;
+}
+
+.cross1-shown {
+  stroke              : #fc0;
+  stroke-width        : 6px;
+  stroke-dasharray    : 226.274169921875px;
+  stroke-dashoffset   : 0px;
+  fill                : transparent;
+  -webkit-transition  : stroke-dashoffset 200ms ease-in;
+     -moz-transition  : stroke-dashoffset 200ms ease-in;
+       -o-transition  : stroke-dashoffset 200ms ease-in;
+          transition  : stroke-dashoffset 200ms ease-in;
+}
+
+.cross2-shown {
+  stroke              : #fc0;
+  stroke-width        : 6px;
+  stroke-dasharray    : 226.274169921875px;
+  stroke-dashoffset   : 0px;
+  fill                : transparent;
+  -webkit-transition  : stroke-dashoffset 200ms ease-in 200ms;
+     -moz-transition  : stroke-dashoffset 200ms ease-in 200ms;
+       -o-transition  : stroke-dashoffset 200ms ease-in 200ms;
+          transition  : stroke-dashoffset 200ms ease-in 200ms;
+}
+
+.xWon1 {
+  stroke              : #b10;
+  stroke-width        : 6px;
+  stroke-dasharray    : 226.274169921875px;
+  stroke-dashoffset   : 0px;
+  fill                : transparent;
+  -webkit-transition  : all 500ms ease-in 100ms, stroke 500ms ease-in 1.1s;
+     -moz-transition  : all 500ms ease-in 100ms, stroke 500ms ease-in 1.1s;
+       -o-transition  : all 500ms ease-in 100ms, stroke 500ms ease-in 1.1s;
+          transition  : all 500ms ease-in 100ms, stroke 500ms ease-in 1.1s;
+}
+
+.xWon2 {
+  stroke              : #b10;
+  stroke-width        : 6px;
+  stroke-dasharray    : 226.274169921875px;
+  stroke-dashoffset   : 0px;
+  fill                : transparent;
+  -webkit-transition  : all 500ms ease-in 600ms, stroke 500ms ease-in 1.1s;
+     -moz-transition  : all 500ms ease-in 600ms, stroke 500ms ease-in 1.1s;
+       -o-transition  : all 500ms ease-in 600ms, stroke 500ms ease-in 1.1s;
+          transition  : all 500ms ease-in 600ms, stroke 500ms ease-in 1.1s;
+}
+
+.circle {
+  stroke              : #fc0;
+  stroke-width        : 6px;
+  stroke-dasharray    : 263.93072509765625px;
+  stroke-dashoffset   : -263.93072509765625px;
+  fill                : transparent;
+  opacity             : 0;
+}
+
+.circle-shown {
+  stroke              : #fc0;
+  stroke-width        : 6px;
+  stroke-dasharray    : 263.93072509765625px;
+  stroke-dashoffset   : 0px;
+  fill                : transparent;
+  -webkit-transition  : stroke-dashoffset 300ms ease-in 100ms;
+     -moz-transition  : stroke-dashoffset 300ms ease-in 100ms;
+       -o-transition  : stroke-dashoffset 300ms ease-in 100ms;
+          transition  : stroke-dashoffset 300ms ease-in 100ms;
+}
+
+.oWon {
+  stroke              : #b10;
+  stroke-width        : 6px;
+  stroke-dasharray    : 263.93072509765625px;
+  stroke-dashoffset   : 0px;
+  fill                : transparent;
+  -webkit-transition  : stroke-dashoffset 800ms ease-in 600ms, stroke 500ms ease-in 1.2s;
+     -moz-transition  : stroke-dashoffset 800ms ease-in 600ms, stroke 500ms ease-in 1.2s;
+       -o-transition  : stroke-dashoffset 800ms ease-in 600ms, stroke 500ms ease-in 1.2s;
+          transition  : stroke-dashoffset 800ms ease-in 600ms, stroke 500ms ease-in 1.2s;
+}
+
+.clickable {
+  cursor  : pointer;
+}
